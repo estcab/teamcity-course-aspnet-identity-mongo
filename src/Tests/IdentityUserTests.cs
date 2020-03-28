@@ -88,7 +88,7 @@
 		{
 			var user = new IdentityUser();
 
-			Expect(user.Claims, Is.Null);
+			Expect(user.Claims, Is.Not.Null);
 		}
 
 		[Test]
